@@ -15,7 +15,6 @@ import lombok.experimental.FieldDefaults;
 public class IngredientInRecipe {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @NotNull(message = "id should not be null")
     Integer id;
     @NotNull(message = "ingredient should not be null")
     @ManyToOne

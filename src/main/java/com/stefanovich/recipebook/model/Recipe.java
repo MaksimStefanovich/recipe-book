@@ -29,8 +29,6 @@ public class Recipe {
     @NotNull
     @Min(1)
     Integer preparationTime;
-    @NotNull
-    @Min(1)
     Integer servings;
     @NotNull
     @Enumerated(EnumType.STRING)
